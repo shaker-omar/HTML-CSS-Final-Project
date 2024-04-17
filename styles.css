@@ -1,1 +1,212 @@
+/*
+Author: Omar Shaker
+File Name: styles.css
+*/
 
+body {
+	background-color: #F5F5F5; /* Off-white background color */
+    color: #333; /* Set text color to dark gray for contrast */
+	font-family: "Arial", sans-serif;
+}
+
+/* Centering header */
+header {
+    text-align: center;
+	margin-bottom: 30px;
+}
+
+/* Styling the league logo */
+#league {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Making navigation links bigger */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    font-size: 30px;
+	padding: 10px 20px;
+    border: 2px solid #ddd;
+    color: orange;
+    text-decoration: none;
+}
+
+/* Alternating background colors for links */
+nav ul li:nth-child(even) a {
+    background-color: orange;
+	color: white;
+}
+
+nav ul li:nth-child(odd) a {
+    background-color: orange;
+    color: white; 
+}
+
+/* Increasing size of main elements */
+#intro {
+    font-size: 18px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#finals-picture {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 20px;
+}
+
+#finals-picture img {
+    width: 33%;
+}
+
+.finals-caption {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.finals-caption p {
+    text-align: center;
+    font-weight: bold;
+	font-size: 15px;
+}
+
+/* Teams.html Styling */
+
+/* Set background color */
+body {
+    background-color: #F5F5F5;
+    color: #333;
+    font-family: "Arial", sans-serif;
+}
+
+/* Centering header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styling the team table */
+#team-table {
+    margin: 0 auto;
+    width: 80%;
+}
+
+#team-table table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#team-table th, #team-table td {
+    padding: 12px;
+    text-align: left;
+	border: 1px solid #ddd; 
+}
+
+#team-table th {
+    background-color: orange; 
+    color: white;
+	font-weight: bold; 
+    text-align: center; 
+	font-size: 20px; 
+	padding-top: 30px; 
+    padding-bottom: 30px; 
+}
+
+#team-table caption {
+    font-size: 24px; 
+    font-weight: bold; 
+    text-align: center;
+}
+
+#team-table tbody tr:nth-child(even) {
+    background-color: #e0e0e0;
+}
+
+#team-table tbody tr:hover {
+    background-color: #ddd;
+}
+
+#team-table td img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Styling schedule.html */
+#schedule {
+    margin: 0 auto;
+    width: 80%; 
+}
+
+.week {
+    margin-bottom: 20px;
+}
+
+.match {
+    display: flex;
+}
+
+.match > div {
+    padding: 10px; 
+    border: 2px solid #ddd;
+}
+
+.team {
+    font-weight: bold; 
+	font-size: 20px;
+	text-align: center;
+	flex: 2;
+}
+
+.team-logo {
+    width: 100px; 
+    height: 75px;
+    margin-right: 10px; 
+}
+
+.scoreline, .time {
+    text-align: center; 
+	flex: 1;
+}
+
+.time {
+    font-weight: bold;
+}
+
+.scoreline {
+	font-weight: bold;
+	font-size: 33px;
+}
+
+.match:nth-child(even) {
+    background-color: #e0e0e0;
+}
+
+.info {
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+
+.youtube-video {
+            text-align: center; 
+            margin-top: 20px; 
+			border: 1px solid black; 
+            padding: 5px; 
+}
